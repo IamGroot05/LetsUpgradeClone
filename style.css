@@ -1,0 +1,24 @@
+body{
+   
+  
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,51,171,1) 0%, rgba(0,212,255,1) 100%);
+    text-align: center;
+    line-height: 50px;
+}
+
+#image1{
+    height: 350px;
+    width: fit-content;
+
+}
+
+#title{
+    color: #1f004d;
+
+}
+#read{
+    color: whitesmoke;
+    line-height: 20px;
+    text-align: center;
+    
+}
