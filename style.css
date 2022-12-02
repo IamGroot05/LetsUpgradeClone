@@ -1,24 +1,140 @@
-body{
-   
-  
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,51,171,1) 0%, rgba(0,212,255,1) 100%);
-    text-align: center;
-    line-height: 50px;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:  border-box;
+    font-family: 'Roboto';
+
 }
 
-#image1{
-    height: 350px;
-    width: fit-content;
+#container{
+    height: 100vh;
+}
 
+#nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-inline: auto;
+}
+
+#nav_elements{
+    display: flex;
+    
+    
+}
+
+#logo{
+    height: 7vh;
+}
+
+#link_container{
+    display: flex;
+    align-items: center;
+}
+
+.links{
+    margin-right:  10px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.links:hover{
+     color: rgb(255,102,0) ;
+}
+
+.button{
+    margin-left:  10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 100px ;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.black_bg{ 
+    background-color: black;
+    color: white;
+
+}
+
+.su_bttn{
+    background-color: white;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+   
+}
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    align-items: center;
+    height: 100%;
+
+}
+
+#banner{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0, 0.7);
+    animation: flash 1s infinite;
+}
+@keyframes flash{
+    0% {
+        opacity: 0 ;                                                                                                                      ;
+   }
+
+   50% {
+    opacity: 1;
+   }
+   
+   100%{
+    opacity: 0;
+   }
 }
 
 #title{
-    color: #1f004d;
-
-}
-#read{
-    color: whitesmoke;
-    line-height: 20px;
+    width: 700px;
+    font-size: 90px;
     text-align: center;
+}
+
+h4{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#hero_button{
+    font-size: 25px;
+    padding: 16px 30px;
+}
+
+span{
     
+    background-color: black;
+    color: white;
+    padding: 13px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-inline: 2px;
+}
+
+#none_span{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+#top_numbers{
+    margin-top: 15px;
+
 }
